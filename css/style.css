@@ -294,14 +294,15 @@ main .col-left-main {
 }
 .main-left .share-facebook-content .button-1 {
   position: relative;
-  padding-left: 20px;
+  padding-left: 18px;
 }
 .main-left .share-facebook-content i.ion-social-facebook {
   position: absolute;
-  left: 0;
+  left: 4px;
   top: 0;
   bottom: 0;
-  font-size: 1.6em;
+  font-size: 1.3em;
+  line-height: 18px;
   text-align: center;
   color: white;
 }
@@ -787,4 +788,55 @@ footer .ft-list-right ul li a {
 }
 .full-footer-bot .footer-bottom ul li.item-5 a:hover {
   text-decoration: underline;
+}
+@media (max-width: 1050px) {
+  .header-left .logo {
+    padding-top: 15px;
+  }
+  .header-left .logo img {
+    width: 90px;
+  }
+  .header-left .col-hamburger {
+    margin-top: 20px;
+  }
+  .col-search-header {
+    padding-top: 12px;
+  }
+  .header-menu .cate-humburger .hamburger i.ion-navicon-round {
+    font-size: 22px;
+  }
+  .header-menu .cate-humburger .hamburger h3 {
+    font-size: 18px;
+  }
+  .header-menu .cate-humburger .hamburger i.ion-chevron-down {
+    font-size: 10px;
+  }
+}
+@media (max-width: 812px) {
+  .header-right ul {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .header-left .col-hamburger {
+    margin-left: 0px;
+  }
+  .header-menu .cate-humburger {
+    justify-content: flex-end;
+  }
+  .col-search-header {
+    padding-top: 20px;
+    padding-right: 0;
+    margin-left: -15px;
+  }
+  .header-menu .menu {
+    left: -15px;
+    width: 100%;
+    min-width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .header-menu .cate-humburger .hamburger h3 {
+    font-size: 14px;
+  }
 }
